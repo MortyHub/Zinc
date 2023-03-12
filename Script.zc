@@ -1,0 +1,13 @@
+func Main(str Name)
+{
+
+    lis age = Name.sep("R")
+    log(age)
+    # prints ["R", "ob"]
+
+    lis age1 = Name.sep("R")!
+    log(age1)
+    # prints ["ob", "R"]
+
+}
+Main("Rob")
