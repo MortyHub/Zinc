@@ -1,2 +1,5 @@
-var int z = 3
-log(z/3)
+func main(a,b,c) {
+var int hello = 5
+log(hello)
+}
+call main()
